@@ -384,7 +384,7 @@
         margin-top: 40px;
     }
 
-    #row6>img {
+    #row6>a>img {
         width: 100%;
     }
 
@@ -441,7 +441,7 @@
 
     }
 
-    #row9>div>img {
+    #row9>div>a>img {
         width: 100%
     }
 
@@ -590,6 +590,7 @@
         width: 50%;
         height: auto;
         margin: auto;
+        margin-left: 120px;
         font-size: 15px;
     }
 
@@ -597,6 +598,7 @@
         width: 50%;
         height: auto;
         margin: auto;
+        margin-left: 650px;
         align-items: center;
     }
 
@@ -608,8 +610,17 @@
 
     }
 
+    .ft-bar a:hover {
+        color: blue;
+    }
+
     #spc {
         padding: 0px 10px;
+    }
+
+    #btimg {
+        width: 5%;
+        margin-left: 5px;
     }
 </style>
 
@@ -673,8 +684,9 @@
         </div>
     </div>
     <div id="row6">
-        <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/heros/desktop/row/ww_row_desktop-hero.jpg"
-            alt="">
+        <a href="https://www.asos.com/women/ctas/fashion-online-7/cat/?cid=13502&ctaref=hp|ww|prime|hero|1|edit|depop"><img
+                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/heros/desktop/row/ww_row_desktop-hero.jpg"
+                alt=""></a>
     </div>
     <div id="row7">
         <div class="posterimg">
@@ -717,16 +729,20 @@
             alt="">
     </div>
     <div id="row9">
-        <div class="deals"><img
-                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_big-brands.jpg"
-                alt="">
+        <div class="deals">
+            <a
+                href="https://www.asos.com/women/a-to-z-of-brands/asyou/cat/?cid=29990&ctaref=hp|ww|prime|moment|7|edit|asyou"><img
+                    src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_big-brands.jpg"
+                    alt=""></a>
             <h1>BIG BRAND DEALS</h1>
             <P>New Balance, Topshop, GHD, & more!</P>
             <center><button class="btn"> SHOP NOW</button></center>
         </div>
-        <div class="deals"><img
-                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_summer-going-out.jpg"
-                alt="">
+        <div class="deals">
+            <a
+                href="https://www.asos.com/women/a-to-z-of-brands/asyou/cat/?cid=29990&ctaref=hp|ww|prime|moment|7|edit|asyou"><img
+                    src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_summer-going-out.jpg"
+                    alt=""></a>
             <h1>GOING OUT-OUT</h1>
             <P>HOT summer nights</P>
             <center><button class="btn"> SHOP NOW</button></center>
@@ -775,7 +791,9 @@
                 </div>
                 <div>
                     <h3>SHOPPING FROM:</h3>
-                    <li><a href="#">You're in </a><span id="spc">|</span><b>CHANGE</b></li>
+                    <li><a href="#">You're in <img id="btimg"
+                                src="https://assets.asosservices.com/storesa/images/flags/in.png" alt=""></a><span
+                            id="spc">|</span><b>CHANGE</b></li>
                 </div>
             </div>
         </div>

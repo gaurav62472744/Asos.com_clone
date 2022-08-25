@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> asos.com clone</title>
+    <title> Men's Clothes | Men's Shop for Men's Fashion</title>
 </head>
 <style>
     body {
@@ -384,7 +384,7 @@
         margin-top: 40px;
     }
 
-    #row6>img {
+    #row6>a>img {
         width: 100%;
     }
 
@@ -395,7 +395,7 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .posterimg>img {
@@ -441,7 +441,7 @@
 
     }
 
-    #row9>div>img {
+    #row9>div>a>img {
         width: 100%
     }
 
@@ -590,6 +590,7 @@
         width: 50%;
         height: auto;
         margin: auto;
+        margin-left: 120px;
         font-size: 15px;
     }
 
@@ -597,6 +598,7 @@
         width: 50%;
         height: auto;
         margin: auto;
+        margin-left: 650px;
         align-items: center;
     }
 
@@ -611,6 +613,11 @@
     #spc {
         padding: 0px 10px;
     }
+
+    #btimg {
+        width: 5%;
+        margin-left: 5px;
+    }
 </style>
 
 <body>
@@ -621,7 +628,7 @@
     </div>
     <div id="row2">
         <img id="icon" src="https://1000logos.net/wp-content/uploads/2020/07/Asos-Logo.jpg">
-        <a href="">
+        <a href="women.html">
             <p id="women">WOMEN</p>
         </a>
         <a href="">
@@ -673,8 +680,10 @@
         </div>
     </div>
     <div id="row6">
-        <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/heros/desktop/row/mw_row_desktop-hero.jpg"
-            alt="">
+        <a
+            href="https://www.asos.com/men/ctas/fashion-online-10/cat/?cid=13517&ctaref=hp|mw|prime|hero|1|edit|noughtiesasosdesign"><img
+                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/heros/desktop/row/mw_row_desktop-hero.jpg"
+                alt=""></a>
     </div>
     <div id="row7">
         <div class="posterimg">
@@ -717,16 +726,21 @@
             alt="">
     </div>
     <div id="row9">
-        <div class="deals"><img
-                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/mw/mw_big-brands.jpg"
-                alt="">
+        <div class="deals">
+            <a
+                href="https://www.asos.com/men/a-to-z-of-brands/topman/cat/?cid=29065&ctaref=hp|mw|prime|moment|6|edit|topman">
+                <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/mw/mw_big-brands.jpg"
+                    alt="">
+            </a>
             <h1>BIG BRAND DEALS</h1>
             <P>Topman, New Balance & more!</P>
             <center><button class="btn"> SHOP NOW</button></center>
         </div>
-        <div class="deals"><img
-                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/mw/mw-moment_summer-going-out.jpg"
-                alt="">
+        <div class="deals">
+            <a
+                href="https://www.asos.com/men/a-to-z-of-brands/topman/cat/?cid=29065&ctaref=hp|mw|prime|moment|6|edit|topman"><img
+                    src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/mw/mw-moment_summer-going-out.jpg"
+                    alt=""></a>
             <h1>GOING OUT-OUT</h1>
             <P>HOT summer nights</P>
             <center><button class="btn"> SHOP NOW</button></center>
@@ -775,7 +789,9 @@
                 </div>
                 <div>
                     <h3>SHOPPING FROM:</h3>
-                    <li><a href="#">You're in </a><span id="spc">|</span><b>CHANGE</b></li>
+                    <li><a href="#">You're in <img id="btimg"
+                                src="https://assets.asosservices.com/storesa/images/flags/in.png" alt=""></a><span
+                            id="spc">|</span><b>CHANGE</b></li>
                 </div>
             </div>
         </div>

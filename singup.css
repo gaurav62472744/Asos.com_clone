@@ -1,0 +1,164 @@
+body {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 0px;
+}
+#imgasos {
+  width: 650px;
+  height: 120px;
+  margin: auto;
+  border: 0.1px solid #eeeeee;
+}
+#imgasos > h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  border: 0px solid #eeeeee;
+}
+#container {
+  width: 650px;
+  margin: auto;
+  padding: 30px 5px 30px 5px;
+  border: 1px solid red;
+  background-color: white;
+}
+#row1 {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+a {
+  text-decoration: none;
+}
+#join {
+  color: rgba(0, 0, 0, 0.544);
+  font-family: sans-serif;
+}
+#singin {
+  color: rgba(0, 0, 0, 0.549);
+  margin-left: 250px;
+  font-family: sans-serif;
+}
+#join:hover {
+  color: black;
+  cursor: pointer;
+}
+#singin:hover {
+  color: black;
+  cursor: pointer;
+}
+h3 {
+  margin-top: 50px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #222222;
+}
+#row2 {
+  width: 90%;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.colm {
+  width: 30%;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.305);
+  margin: auto;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+}
+.colm > p:hover {
+  color: rgba(0, 0, 0, 0.434);
+  cursor: pointer;
+}
+.colm > img {
+  width: 17%;
+}
+.colm > p {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2d2d2d;
+  margin-right: 10px;
+}
+#fb {
+  width: 20%;
+  height: 25%;
+  margin-top: 15px;
+}
+#text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding: 0px 25px 0px 20px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 350px;
+  margin: auto;
+  font-family: sans-serif;
+  color: #767676;
+  margin-top: 40px;
+}
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 25px 0;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  background: white;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: white;
+  outline: none;
+}
+#up {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+#dateselect {
+  width: 350px;
+  margin: auto;
+}
+select {
+  height: 45px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: normal;
+  text-align: start;
+  padding: 10px;
+}
+#month {
+  margin-left: 27px;
+}
+#year {
+  margin-left: 28px;
+}
+#bithdate {
+  color: #767676;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
