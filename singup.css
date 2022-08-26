@@ -19,7 +19,7 @@ body {
   width: 650px;
   margin: auto;
   padding: 30px 5px 30px 5px;
-  border: 1px solid red;
+  border: 1px solid white;
   background-color: white;
 }
 #row1 {
@@ -242,4 +242,8 @@ p {
 }
 #btn:hover {
   background-color: #767676;
+}
+#last {
+  text-align: center;
+  margin-top: 25px;
 }
