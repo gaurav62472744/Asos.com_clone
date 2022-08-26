@@ -44,7 +44,7 @@
         <form id="formlist">
             <label for="email"><b>EMAIL ADDRESS</b></label>
             <input type="text" name="email" id="email" required>
-            <p id="up"> We"ll send your order confirmation here</p>
+            <p id=""> We"ll send your order confirmation here</p>
 
 
             <label for="first name"><b>FIRST NAME:</b></label>
@@ -56,7 +56,7 @@
             <label for="psw"><b>PASSWORD:</b></label>
             <input type="password" name="psw" id="psw" required>
             <P>Must be 10 or more characters</P>
-            <p id="bithdate">DATE OF BITH:</p>
+            <p class="common">DATE OF BITH:</p>
             <span>
                 <select id="day" name="day">
                     <option value="DD">DD</option>
@@ -247,9 +247,51 @@
                 </select>
             </span>
             <p>You need to be 16 or over to use ASOS</p>
-            <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-            </label>
+            <p class="common">MOSTELY INTERESTED IN:</p>
+            <div id="interest">
+                <div id="round">
+                    <input type="radio" id="specifyColor" name="round">
+                    <label for="specifyColor">Womenwear</label>
+                    <input type="radio" id="specifyColor2" name="round">
+                    <label for="specifyColor">Menswear</label>
+                </div>
+            </div>
+            <p>CONTACT PREFERNCES</p>
+            <div id="contact">
+                <div id="cselect">
+                    <P>Tell us which emails you'd like:</P>
+                    <button>SELECT</button>
+                </div>
+                <div id="cell">
+                    <div>Discounts and sales
+                        <label>
+                            <input type="checkbox" id="checker" checked="checked" name="remember"
+                                style="margin-bottom:15px">
+                        </label>
+                    </div>
+                    <div>New stuff
+                        <label>
+                            <input type="checkbox" id="checker2" checked="checked" name="remember"
+                                style="margin-bottom:15px">
+
+                        </label>
+                    </div>
+                    <div>Your exclusives
+                        <label>
+                            <input type="checkbox" id="checker3" checked="checked" name="remember"
+                                style="margin-bottom:15px">
+
+                        </label>
+                    </div>
+                    <div>ASOS partners
+                        <label>
+                            <input type="checkbox" id="checker4" checked="checked" name="remember"
+                                style="margin-bottom:15px">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button id="btn" type="submit" form="form1" value="Submit">JOIN ASOS</button>
         </form>
     </div>
     </div>
