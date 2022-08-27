@@ -31,3 +31,12 @@ function login(event) {
   event.preventDefault();
   window.location.href = "singin.html";
 }
+// localStorage.setItem("singupData",JSON.stringify(objArr));
+
+//  if(objArr.psw.length>=10){
+//     window.location.href="singin.html";
+//     }
+//    else{
+//     document.querySelector("#psw").style.borderColor="red";
+
+//    }

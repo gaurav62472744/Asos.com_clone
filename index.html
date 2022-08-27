@@ -355,6 +355,7 @@
     #row5 {
         width: 90%;
         margin: auto;
+        margin-top: 2px;
     }
 
     #row5:hover {
@@ -634,3 +635,17 @@
 
 </html>
 <script src="common.js"></script>
+<script>
+    window.addEventListener("resize", getTemplate);
+
+    CurrentPage = 'DesktopPage';
+
+    function getTemplate() {
+
+        if (screen.width < 1023 && CurrentPage != 'MobilePage') {
+            return window.location.replace("Small.html");
+        }
+    }
+
+    getTemplate();
+</script>
