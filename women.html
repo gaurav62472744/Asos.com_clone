@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Clothes | Shop for Women Fashion</title>
+    <link rel="icon" href="https://content.asos-media.com/-/media/images/asos/logo/icon_svg.svg" type="image/x-icon">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    #row1 {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 35px;
+        color: rgba(0, 0, 0, 0.649);
+        font-size: 14px;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+        color: #666666;
+        background-color: #f8f8f8;
+    }
+
+    #row1>p:nth-child(1):hover {
+        color: blue;
+    }
+
+    #row1>p:nth-child(2):hover {
+        color: blue;
+    }
+
+
+    #r1img {
+        width: 1.2%;
+        height: 65%;
+        padding: 10px;
+        margin-right: 100px;
+    }
+
+    #row2 {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #000000f2;
+    }
+
+    #icon {
+        height: 60%;
+        margin-left: 105px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #women {
+        color: #ffffff;
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: 2px;
+        padding: 0px 22px 0px 22px;
+    }
+
+    #men {
+        color: #ffffff;
+        font-family: sans-serif;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: 2px;
+        padding: 0px 22px 0px 22px;
+        margin-right: 20px;
+    }
+
+    #searchbar {
+        width: 350%;
+        font-size: 16px;
+        font-family: sans-serif;
+        padding: 10px;
+        padding-left: 20px;
+        border-radius: 30px;
+    }
+
+    #loginimg {
+        width: 45%;
+        height: 60%;
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+
+    #cartimg {
+        width: 45%;
+        height: 60%;
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    #wishlist {
+        width: 30%;
+        height: 35%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 85px;
+        cursor: pointer;
+    }
+
+    #women:hover {
+        background-color: #525050;
+        cursor: pointer;
+    }
+
+    #men:hover {
+        background-color: #525050;
+        cursor: pointer;
+    }
+
+    #row3 {
+        height: 50px;
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        background-color: #525050;
+        color: #ffffff;
+        font-family: sans-serif;
+    }
+
+    #row3>p:nth-child(1) {
+        margin-left: 130px;
+        padding: 0px 18px 0px 18px;
+        line-height: 49px;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #d01345;
+        color: #eeeeee;
+        transform: skew(-12deg);
+    }
+
+    #row3>p:nth-child(1):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+        transform: skew(0deg);
+    }
+
+    #row3>p:nth-child(2) {
+        padding: 0px 15px 0px 15px;
+        margin-left: 8px;
+    }
+
+    #row3>p:nth-child(2):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(3) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(3):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(4) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(4):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(5) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(5):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(6) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(6):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(7) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(7):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(8) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(8):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(9) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(9):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(10) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(10):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(11) {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(11):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(12) {
+        padding: 0px 10px 0px 10px;
+        margin-right: 8px;
+    }
+
+    #row3>p:nth-child(12):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row3>p:nth-child(13) {
+        padding: 0px 15px 0px 15px;
+        line-height: 49px;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #d01345;
+        color: #eeeeee;
+        transform: skew(-12deg);
+    }
+
+    #row3>p:nth-child(13):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+        transform: skew(0deg);
+    }
+
+    #row3>p:nth-child(14) {
+        margin-left: 8px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #row3>p:nth-child(14):hover {
+        line-height: 50px;
+        color: #666666;
+        background-color: #eeeeee;
+    }
+
+    #row4 {
+        width: 100%;
+        height: 50px;
+        display: flex;
+    }
+
+    #child1 {
+        width: 50%;
+        height: 100%;
+        background-color: #ccff00;
+        color: #000000;
+    }
+
+    #child2 {
+        width: 36.5%;
+        height: inherit;
+        text-align: center;
+        margin: auto;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+    }
+
+    #del {
+        width: 50%;
+        height: 100%;
+        background-color: #000000;
+        color: #eeeeee;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+    }
+
+    #row5 {
+        width: 100%;
+        height: 240px;
+        padding: 18px 0px 18px 0px;
+        border: 0px solid red;
+        background: rgb(244, 254, 194);
+        background: linear-gradient(90deg, rgba(244, 254, 194, 1) 2%, rgba(216, 255, 64, 1) 47%, rgba(245, 157, 182, 1) 97%);
+    }
+
+    #poster {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        border: 0px solid green;
+    }
+
+    #poster2 {
+        width: 80%;
+        margin: auto;
+        border: 0px solid blue;
+        text-align: center;
+        font-size: 22px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    #poster2>img {
+        display: block;
+        text-align: center;
+        margin-left: 28%;
+    }
+
+    #poster2>p:nth-child(2) {
+        margin-bottom: 10px;
+        line-height: 30px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #poster2>p:nth-child(3) {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #poster>p:nth-child(2) {
+        text-align: center;
+    }
+
+    #row6 {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #row6>a>img {
+        width: 100%;
+    }
+
+    #row7 {
+        width: 80%;
+        height: 480px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .posterimg>img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .posterimg {
+        text-align: center;
+        font-family: sans-serif;
+        color: #000000;
+    }
+
+    #brands {
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    #row8 {
+        width: 80%;
+        margin: auto;
+    }
+
+    #row8>img {
+        width: 16%;
+        margin: auto;
+    }
+
+    #row9 {
+        width: 70%;
+        height: auto;
+        display: flex;
+        gap: 30px;
+        margin: auto;
+    }
+
+    #row9>div {
+        width: 50%;
+
+    }
+
+    #row9>div>a>img {
+        width: 100%
+    }
+
+    .deals>h1 {
+        text-align: center;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .deals>p {
+        text-align: center;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        text-align: center;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        padding: 20px 30px 20px 30px;
+        font-size: 18px;
+        border: 2px solid black;
+        background-color: white;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        color: white;
+        background-color: #000000;
+    }
+
+    #row10 {
+        margin-top: 100px;
+        width: 100%;
+        height: 50px;
+        border-top: 0.1px solid rgba(0, 0, 0, 0.148);
+        display: flex;
+    }
+
+    #icon {
+        width: 40%;
+    }
+
+    #icon>img:nth-child(1) {
+        margin-left: 340px;
+        width: 5%;
+        margin-top: 10px;
+
+    }
+
+    #icon>img:nth-child(2) {
+        margin-left: 35px;
+        width: 5%;
+
+    }
+
+    #icon>img:nth-child(3) {
+        margin-left: 35px;
+        width: 5%;
+    }
+
+    #cardimg {
+        width: 60%;
+        height: 90%;
+    }
+
+    #cardimg>img:nth-child(1) {
+        width: 5%;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+
+    #cardimg>img:nth-child(2) {
+        width: 5%;
+        margin-left: 23px;
+    }
+
+    #cardimg>img:nth-child(3) {
+        width: 5%;
+        margin-left: 23px;
+    }
+
+    #cardimg>img:nth-child(4) {
+        width: 5%;
+        margin-left: 23px;
+    }
+
+    #cardimg>img:nth-child(5) {
+        width: 5%;
+        margin-left: 23px;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        width: 100%;
+        height: 250px;
+        background-color: #EEEEEE;
+    }
+
+    .ftc {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, auto);
+        color: #666666;
+        padding-top: 20px;
+    }
+
+    .footer>div>div>h3 {
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    li {
+        list-style: none;
+        margin: 20px 0px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #666666;
+        font-size: 13px;
+        margin: 20px 0px;
+    }
+
+    .footer a:hover {
+        color: blue;
+    }
+
+    .ft-bar {
+        width: 100%;
+        height: 50px;
+        background-color: #DDDDDD;
+        color: #666666;
+        display: flex;
+        align-items: center;
+    }
+
+    .ft-bar>div:nth-child(1) {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        margin-left: 120px;
+        font-size: 15px;
+    }
+
+    .ft-bar>div:nth-child(2) {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        margin-left: 650px;
+        align-items: center;
+    }
+
+    .ft-bar a {
+        margin-left: 15px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #666666;
+
+    }
+
+    .ft-bar a:hover {
+        color: blue;
+    }
+
+    #spc {
+        padding: 0px 10px;
+    }
+
+    #btimg {
+        width: 5%;
+        margin-left: 5px;
+    }
+</style>
+
+<body>
+    <div id="row1">
+        <p>Marketplace</p>
+        <p> Help & FAQs</p>
+        <img id="r1img" src="https://assets.asosservices.com/storesa/images/flags/in.png" alt="">
+    </div>
+    <div id="row2">
+        <a href="index.html"><img id="icon" src="https://1000logos.net/wp-content/uploads/2020/07/Asos-Logo.jpg"></a>
+        <a href="">
+            <p id="women">WOMEN</p>
+        </a>
+        <a href="men.html">
+            <p id="men">MEN</p>
+        </a>
+        <input type="search" placeholder="Search for items and brands" id="searchbar">
+        <a href="singup.html"><img
+                src="data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' height='var(--myaccount-icon-height)' width='var(--myaccount-icon-width)'%3E%3Cpath d='M14 6a4 4 0 10-8 0 4 4 0 008 0zm2 0A6 6 0 114 6a6 6 0 0112 0zm-6 9c-3.068 0-5.67 1.223-7.035 3h14.07c-1.365-1.777-3.967-3-7.035-3zm10 5H0c.553-4.006 4.819-7 10-7s9.447 2.994 10 7z' fill='%23fff'/%3E%3C/svg%3E"
+                alt="login" id="loginimg"></a>
+        <a href=""><img
+                src="data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 18' xmlns='http://www.w3.org/2000/svg' height='var(--myaccount-icon-height)' width='var(--myaccount-icon-width)'%3E%3Cpath d='M10.618 15.474a21.327 21.327 0 003.137-2.076c2.697-2.166 4.249-4.619 4.245-7.299-.003-2.284-1.757-4.101-3.881-4.099-1.016 0-1.97.417-2.69 1.158l-1.43 1.467-1.432-1.463a3.748 3.748 0 00-2.695-1.151C3.749 2.013 1.998 3.837 2 6.12c.003 2.677 1.559 5.123 4.256 7.281a21.32 21.32 0 003.756 2.39c.191-.096.394-.202.606-.318zM9.996 1.763l.203-.2A5.726 5.726 0 0114.116 0c3.246-.004 5.88 2.725 5.884 6.097C20.01 13.845 10.014 18 10.014 18S.01 13.87 0 6.124C-.003 2.752 2.624.014 5.87.01a5.733 5.733 0 013.92 1.554l.205.199z' fill='%23FFF'/%3E%3C/svg%3E"
+                alt="cart" id="cartimg"></a>
+        <img id="wishlist"
+            src="data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' height='var(--myaccount-icon-height)' width='var(--myaccount-icon-width)'%3E%3Cpath d='M18 17.987V7H2v11l16-.013zM4.077 5A5.996 5.996 0 0110 0c2.973 0 5.562 2.162 6.038 5H20v14.986L0 20V5h4.077zm9.902-.005C13.531 3.275 11.86 2 10 2 8.153 2 6.604 3.294 6.144 4.995c.92 0 7.654.03 7.835 0z' fill='%23FFF'/%3E%3C/svg%3E"
+            alt="">
+    </div>
+    <div id="row3">
+        <p>Sale</p>
+        <p>New in</p>
+        <p>Clothing</p>
+        <p>Dresses</p>
+        <p>Shoes</p>
+        <p>Sportswear</p>
+        <p>Accessories</p>
+        <p>Summer</p>
+        <p>Trending</p>
+        <p>Topshop</p>
+        <p>Face + Body</p>
+        <p>Brands</p>
+        <p>Outlet</p>
+        <p>Marketplace</p>
+    </div>
+    <div id="row4">
+        <div id="child1">
+            <div id="child2">
+                GET AT LEAST AN EXTRA 15% OFF*
+                WITH OUR SURPRISE CODE!
+                Use code: WINNER
+            </div>
+        </div>
+        <div id="del">
+            <p>FREE WORLDWIDE DELIVERY</p>
+        </div>
+    </div>
+    </div>
+    <div id="row5">
+        <div id="poster">
+            <div id="poster2">
+                <img src="https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/03_mar/random-spinners/se-dk-pl-ru-row-apac-mena-no-currency/global_430x80_desktop.gif"
+                    alt="">
+                <p>GET AT LEAST AN EXTRA 15% OFF <br>WITH OUR SURPRISE CODE! </p>
+                <p> Use code: WINNER</p>
+            </div>
+            <p>See website banner for Ts&Cs. Selected marked products excluded from promo.</p>
+        </div>
+    </div>
+    <div id="row6">
+        <a href="Women1.html"><img
+                src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/heros/desktop/row/ww_row_desktop-hero.jpg"
+                alt=""></a>
+    </div>
+    <div id="row7">
+        <div class="posterimg">
+            <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/features/ww/ww-cat-tray-deals_under-x.jpg"
+                alt="">
+            <h3>BIGGEST DEALS</h3>
+            <P>*Screams in discount*</P>
+        </div>
+        <div class="posterimg">
+            <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/features/ww/ww-cat-tray_summer-vacay.jpg"
+                alt="">
+            <h3>SWIM STUFF</h3>
+            <P>For final getaways</P>
+        </div>
+        <div class="posterimg">
+            <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/features/ww/ww-cat-traydresses--tops-under-x.jpg"
+                alt="">
+            <h3>DRESSES & TOPS</h3>
+            <P>Add-to0bag energy</P>
+        </div>
+        <div class="posterimg">
+            <img src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/features/ww/ww-cat-tray_new-season.jpg"
+                alt="">
+            <h3>LIGHTWEIGHT LAYERS</h3>
+            <P>Peak autumn prep</P>
+        </div>
+    </div>
+    <p id="brands">TRENDING BRANDS</p>
+    <div id="row8">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/monkl-hp-logos-256x256.jpg"
+            alt="">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/never-fully-dressed-hp-logos-256x256.png"
+            alt="">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/1x12x---test.png" alt="">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/reclaimed-vintage-hp-logos-256x256.jpg"
+            alt="">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/collusion-hp-logos-256x256.jpg"
+            alt="">
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/weekday-hp-logos-256x256.jpg"
+            alt="">
+    </div>
+    <div id="row9">
+        <div class="deals">
+            <a href="Women1.html"><img
+                    src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_big-brands.jpg"
+                    alt=""></a>
+            <h1>BIG BRAND DEALS</h1>
+            <P>New Balance, Topshop, GHD, & more!</P>
+            <center><button class="btn"> SHOP NOW</button></center>
+        </div>
+        <div class="deals">
+            <a href="Women1.html"><img
+                    src="https://content.asos-media.com/-/media/homepages/unisex/events-2022/wk52-red-pen/moments/ww/ww-moment_summer-going-out.jpg"
+                    alt=""></a>
+            <h1>GOING OUT-OUT</h1>
+            <P>HOT summer nights</P>
+            <center><button class="btn"> SHOP NOW</button></center>
+        </div>
+    </div>
+    <div id="row10">
+        <div id="icon">
+            <img id="fb"
+                src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30' width='30'%3E%3Cpath d='M15 30C6.716 30 0 23.284 0 15 0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15zm6.075-21.75H8.925c-.341 0-.675.334-.675.675v12.15c0 .341.333.675.675.675H15v-5.4h-1.35v-2.025H15v-1.35c.46-1.737 1.526-2.686 2.7-2.7 1.126.014 1.767.07 2.025 0V12.3h-1.35c-.646-.108-.81.294-1.35.675v1.35h2.7l-.675 2.025h-2.025v5.4h4.05c.341 0 .675-.334.675-.675V8.925c0-.341-.334-.675-.675-.675z' fill='%233C5A99' fill-rule='evenodd'/%3E%3C/svg%3E"
+                alt="">
+            <img id="insta"
+                src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Cpath fill='%238433B7' d='M15 30C6.716 30 0 23.284 0 15 0 6.716 6.716 0 15 0c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15zm0-21.147c2.002 0 2.24.008 3.03.044.73.033 1.128.155 1.392.258.35.136.6.299.862.561.262.262.425.512.56.862.104.264.226.661.259 1.392.036.79.044 1.028.044 3.03s-.008 2.24-.044 3.03c-.033.73-.155 1.128-.258 1.392-.136.35-.299.6-.561.862a2.323 2.323 0 01-.862.56c-.264.104-.661.226-1.392.259-.79.036-1.028.044-3.03.044s-2.24-.008-3.03-.044c-.73-.033-1.128-.155-1.392-.258-.35-.136-.6-.299-.862-.561a2.323 2.323 0 01-.56-.862c-.104-.264-.226-.661-.259-1.392-.036-.79-.044-1.028-.044-3.03s.008-2.24.044-3.03c.033-.73.155-1.128.258-1.392.136-.35.299-.6.561-.862a2.31 2.31 0 01.862-.56c.264-.104.661-.226 1.392-.259.79-.036 1.028-.044 3.03-.044zm0-1.35c-2.036 0-2.292.008-3.091.044-.798.037-1.343.164-1.82.349a3.675 3.675 0 00-1.328.865 3.675 3.675 0 00-.865 1.328c-.185.477-.312 1.022-.349 1.82-.036.8-.045 1.055-.045 3.091 0 2.036.009 2.292.045 3.091.037.798.164 1.343.349 1.82.192.493.448.911.865 1.328a3.68 3.68 0 001.328.865c.477.185 1.022.312 1.82.349.8.036 1.055.045 3.091.045 2.036 0 2.292-.009 3.091-.045.798-.037 1.343-.164 1.82-.349a3.675 3.675 0 001.328-.865 3.68 3.68 0 00.865-1.328c.185-.477.312-1.022.349-1.82.036-.8.045-1.055.045-3.091 0-2.036-.009-2.292-.045-3.091-.037-.798-.164-1.343-.349-1.82a3.675 3.675 0 00-.865-1.328 3.675 3.675 0 00-1.328-.865c-.477-.185-1.022-.312-1.82-.349-.8-.036-1.055-.045-3.091-.045zm0 3.647a3.85 3.85 0 100 7.7 3.85 3.85 0 000-7.7zm0 6.35a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm4.902-6.502a.9.9 0 10-1.8 0 .9.9 0 001.8 0z' fill-rule='evenodd'/%3E%3C/svg%3E"
+                alt="">
+            <img id="schat"
+                src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 40 40'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23FFFC02' d='M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20 20-8.954 20-20A20 20 0 0020 0zm10 25.94c-.12.28-.66.68-2.54 1a.72.72 0 00-.3.65c0 .15-.07.31-.11.47a.25.25 0 01-.27.2 2.32 2.32 0 01-.42-.05 5.54 5.54 0 00-1.13-.12 5 5 0 00-.82.07c-.57.146-1.1.42-1.55.8A4.35 4.35 0 0120.13 30h-.26a4.35 4.35 0 01-2.68-1.07 3.89 3.89 0 00-1.55-.8 5 5 0 00-.81-.07 5.51 5.51 0 00-1.13.13 2.45 2.45 0 01-.42.06A.26.26 0 0113 28c0-.16-.08-.32-.11-.47a.75.75 0 00-.3-.65c-1.88-.29-2.42-.69-2.54-1a.37.37 0 010-.12.21.21 0 01.18-.22c2.89-.48 4.18-3.47 4.24-3.6a1.13 1.13 0 00.1-.94 2 2 0 00-1.27-.82l-.3-.05c-.85-.34-.93-.69-.89-.87a.81.81 0 01.78-.52.54.54 0 01.23 0c.31.16.651.252 1 .27a.84.84 0 00.62-.2v-.62a10.35 10.35 0 01.24-4.08A5.22 5.22 0 0119.79 11h.4a5.23 5.23 0 014.86 3.17c.35 1.33.432 2.718.24 4.08v.62a.82.82 0 00.56.2 2.55 2.55 0 001-.27.72.72 0 01.3-.06c.12 0 .24.024.35.07a.64.64 0 01.48.53 1.06 1.06 0 01-.9.81l-.28.1a2 2 0 00-1.27.82 1.13 1.13 0 00.1.94c.05.13 1.35 3.11 4.24 3.6a.21.21 0 01.18.22.37.37 0 01-.05.11z'/%3E%3Cpath fill='%23000' fill-rule='nonzero' d='M29.446 25.569a.297.297 0 00-.026.048l.026-.048zm-2.45-6.08a.393.393 0 00.192-.079.334.334 0 00-.05-.003c-.007 0-.014.001.013-.012a3.19 3.19 0 01-.27.121l.116-.027zm-13.44 8.05c.435-.094.85-.141 1.277-.146.308.002.615.028.972.091.669.171 1.29.491 1.824.944a3.669 3.669 0 002.241.905h.246a3.685 3.685 0 002.313-.882 4.587 4.587 0 011.87-.948c.307-.052.618-.079.933-.08.423.002.844.046 1.259.133-.01-.457.207-.892.583-1.16l.274-.113c.589-.1 1.037-.207 1.36-.304-.98-.379-1.823-1.031-2.533-1.875-.579-.687-1.007-1.438-1.118-1.753a1.797 1.797 0 01-.159-1.494l.086-.169c.353-.505.868-.87 1.387-1.019.056-.016.112-.03.169-.04a3.232 3.232 0 01-.671.107 1.487 1.487 0 01-1.016-.362l-.23-.2v-.864l.007-.153a9.73 9.73 0 00-.193-3.724 4.566 4.566 0 00-4.247-2.766h-.405c-1.814-.013-3.462 1.053-4.16 2.613a9.926 9.926 0 00-.218 3.91v.926l-.232.2a1.493 1.493 0 01-1.09.36 3.137 3.137 0 01-1.27-.343l.305-.593-.142.651a.416.416 0 01-.107.015c-.061-.001-.117.036-.11-.001.019-.085 0-.162-.018-.185.018.023.048.05.09.08.038.027.086.057.146.088a2.692 2.692 0 00.269.123L13 20.13l.11-.658.313.053a2.666 2.666 0 011.693 1.093l.086.169c.168.497.11 1.043-.127 1.432a8.177 8.177 0 01-1.306 1.995c-.693.777-1.504 1.374-2.444 1.72a5.455 5.455 0 01-1 .266.457.457 0 00.39-.478l-.007.146a.297.297 0 00.004-.055c-.001-.014-.222.009-.662.067l.622-.24c.022.058.223.17.653.295.321.093.77.194 1.367.286l.164.025.133.1a1.417 1.417 0 01.568 1.193c0 .008-.223.005-.667-.009l.654-.13a6.498 6.498 0 00.032.107c.066.215.09.327.09.47a.407.407 0 00-.423-.393 1.764 1.764 0 00.313-.045zm14.27.013c0 .217-.025.324-.097.56a2.468 2.468 0 00-.03.1c-.101.451-.522.757-.937.714a2.984 2.984 0 01-.54-.064 4.531 4.531 0 00-1.647-.056 3.22 3.22 0 00-1.282.661 5.026 5.026 0 01-3.163 1.2h-.288a5.01 5.01 0 01-3.083-1.228 3.208 3.208 0 00-1.23-.652 4.312 4.312 0 00-.692-.06 4.83 4.83 0 00-.986.112 3.06 3.06 0 01-.52.076.927.927 0 01-.998-.915c0 .008-.005-.016-.03-.093a2.036 2.036 0 01-.067-.246l-.01-.165c-1.672-.284-2.538-.704-2.798-1.375l-.036-.133a1.037 1.037 0 01-.009-.27.872.872 0 01.738-.836c1.03-.17 1.912-.725 2.653-1.556a6.856 6.856 0 001.123-1.727.463.463 0 00.061-.303 1.322 1.322 0 00-.768-.458l-.3-.05-.138-.039c-.973-.39-1.439-.976-1.265-1.727a1.477 1.477 0 011.345-.949c.143-.02.289-.015.43.016l.163.058c.2.103.416.167.654.191a11.222 11.222 0 01.291-4.497 5.885 5.885 0 015.42-3.508h.393c2.38-.024 4.542 1.386 5.512 3.667.372 1.417.46 2.893.262 4.25v.14c.207-.029.412-.094.626-.201.182-.08.38-.119.567-.116.208 0 .414.042.51.09.516.127.904.555.98 1.082l-.01.247a1.728 1.728 0 01-1.395 1.309l-.312.104a1.333 1.333 0 00-.78.46c-.014.108.015.232.11.406.482 1.254 1.834 2.86 3.711 3.179a.877.877 0 01.752.918l-.022.135c-.024.09-.06.175-.106.254-.295.597-1.157.998-2.762 1.295z'/%3E%3C/g%3E%3C/svg%3E"
+                alt="">
+        </div>
+        <div id="cardimg">
+            <img src="https://images.asos-media.com/navigation/visa-png" alt="">
+            <img src="https://images.asos-media.com/navigation/mastercard-png" alt="">
+            <img src="https://images.asos-media.com/navigation/pay-pal-png" alt="">
+            <img src="https://images.asos-media.com/navigation/american-express-png" alt="">
+            <img src="https://images.asos-media.com/navigation/visa-electron-png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="ftc">
+                <div>
+                    <h3>HELP & INFORMATION</h3>
+                    <li><a href="#" target="_blank">Help</a></li>
+                    <li><a href="#" target="_blank">Track order</a></li>
+                    <li><a href="#" target="_blank">Delivery & returns</a></li>
+                </div>
+                <div>
+                    <h3>ABOUT ASOS</h3>
+                    <li><a href="#" target="_blank">About us</a></li>
+                    <li><a href="#" target="_blank">Careers at ASOS</a></li>
+                    <li><a href="#" target="_blank">Corporate responsibility</a></li>
+                    <li><a href="#" target="_blank">Investors' site</a></li>
+                </div>
+                <div>
+                    <h3>MORE FROM ASOS</h3>
+                    <li><a href="#" target="_blank">Mobile and ASOS apps</a></li>
+                    <li><a href="#" target="_blank">ASOS Marketplace</a></li>
+                    <li><a href="#" target="_blank">Gift vouchers</a></li>
+                    <li><a href="#" target="_blank">Black Friday</a></li>
+                    <li><a href="#" target="_blank">ASOS x Thrift+</a></li>
+                </div>
+                <div>
+                    <h3>SHOPPING FROM:</h3>
+                    <li><a href="#">You're in <img id="btimg"
+                                src="https://assets.asosservices.com/storesa/images/flags/in.png" alt=""></a><span
+                            id="spc">|</span><b>CHANGE</b></li>
+                </div>
+            </div>
+        </div>
+        <!-- footer bar  -->
+        <div class="ft-bar">
+            <div>
+                <p>© 2022 ASOS</p>
+            </div>
+            <div>
+                <a href="#" target="_blank">Privacy & Cookies</a><span id="spc">|</span><a href="#"
+                    target="_blank">Ts&Cs </a> <span id="spc">|</span><a href="#" target="_blank">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+<script src="common.js"></script>
